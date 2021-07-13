@@ -1,41 +1,54 @@
-            body {
-                font-family: 'Poppins', sans-serif;
-                margin: 0px;
-            }
-            
-            .orange {
-                color: orange;
-            }
-            
-            h1 {
-                font-size: 50px;
-            }
-            
-            .firstsection {
-                display: flex;
-                background-image: url(images/top-banner.png);
-                background-repeat: no-repeat;
-            }
-            
-            .half-width {
-                width: 50%;
-                padding-left: 5%;
-                padding-right: 5%;
-            }
-            
-            .half-width img {
-                width: 100%;
-            }
-            
-            .paragraph {
-                font-size: 20px;
-            }
-            
-            .link {
-                text-decoration: none;
-                background-image: linear-gradient (tomato, orange);
-                padding: 10px 40px;
-                border-radius: 5px;
-                color: white;
-                font-weight: 900;
-            }
+h1 {
+    font-size: 50px;
+}
+
+span {
+    color: orange;
+    background-repeat: no-repeat;
+}
+
+.second-section {
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 10%;
+}
+
+body {
+    margin: 0px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+p {
+    font-size: 30px;
+}
+
+.link {
+    text-decoration: none;
+    background-image: linear-gradient(red, orange);
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 10px 10px;
+}
+
+.dream-big {
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
